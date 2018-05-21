@@ -183,6 +183,12 @@
       "version": "0.7.20"
     },
     {
+      "author": "fizx",
+      "hash": "QmQjLA7Dk4eZYfKvxP4dRKay6kGUPuEJXZFCgNMfMFzVSK",
+      "name": "go-ds-s3",
+      "version": "0.0.1"
+    },
+    {
       "author": "whyrusleeping",
       "hash": "QmaCTqBCt1aKaGfHfSVzsprqWRXCjHthK8xXrPbUZYCWga",
       "name": "go-ds-flatfs",
