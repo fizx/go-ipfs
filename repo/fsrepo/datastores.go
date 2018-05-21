@@ -271,8 +271,7 @@ func (c *s3DatastoreConfig) DiskSpec() DiskSpec {
 }
 
 func (c *s3DatastoreConfig) Create(path string) (repo.Datastore, error) {
-	fmt.Println("path at %v", path)
-	return s3.NewDatastore(path), nil
+	return s3.NewDatastore(c.path), nil
 }
 
 type memDatastoreConfig struct {
