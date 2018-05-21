@@ -12,6 +12,7 @@ import (
 
 	badgerds "gx/ipfs/QmPAiAmc3qhTFwzWnKpxr6WCXGZ5mqpaQ2YEwSTnwyduHo/go-ds-badger"
 	humanize "gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize"
+	s3 "gx/ipfs/QmQjLA7Dk4eZYfKvxP4dRKay6kGUPuEJXZFCgNMfMFzVSK/go-ds-s3"
 	levelds "gx/ipfs/QmVVhwMHaGHPgZY6pi8hbWGLSgMcZUSdEhJBChjxhBMCoy/go-ds-leveldb"
 	ds "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore"
 	mount "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/mount"
@@ -65,6 +66,7 @@ func init() {
 		"mem":      MemDatastoreConfig,
 		"log":      LogDatastoreConfig,
 		"measure":  MeasureDatastoreConfig,
+		"s3":       S3DatastoreConfig,
 	}
 }
 
@@ -250,6 +252,27 @@ func (c *leveldsDatastoreConfig) Create(path string) (repo.Datastore, error) {
 	return levelds.NewDatastore(p, &levelds.Options{
 		Compression: c.compression,
 	})
+}
+
+type s3DatastoreConfig struct {
+	cfg map[string]interface{}
+}
+
+// S3DatastoreConfig returns a S3 DatastoreConfig from a spec
+func S3DatastoreConfig(params map[string]interface{}) (DatastoreConfig, error) {
+	return &s3DatastoreConfig{params}, nil
+}
+
+func (c *s3DatastoreConfig) DiskSpec() DiskSpec {
+	return map[string]interface{}{
+		"type": "s3",
+		"path": c.path,
+	}
+}
+
+func (c *s3DatastoreConfig) Create(path string) (repo.Datastore, error) {
+	p := c.path
+	return s3.NewDatastore(path), nil
 }
 
 type memDatastoreConfig struct {
