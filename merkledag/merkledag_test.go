@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	bstest "github.com/ipfs/go-ipfs/blockservice/test"
-	. "github.com/ipfs/go-ipfs/merkledag"
-	mdpb "github.com/ipfs/go-ipfs/merkledag/pb"
-	dstest "github.com/ipfs/go-ipfs/merkledag/test"
+	bserv "github.com/fizx/go-ipfs/blockservice"
+	bstest "github.com/fizx/go-ipfs/blockservice/test"
+	. "github.com/fizx/go-ipfs/merkledag"
+	mdpb "github.com/fizx/go-ipfs/merkledag/pb"
+	dstest "github.com/fizx/go-ipfs/merkledag/test"
 
 	u "gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util"
 	offline "gx/ipfs/QmWM5HhdG5ZQNyHQ5XhMdGmV9CvLpFynQfGpTxN2MEM7Lc/go-ipfs-exchange-offline"

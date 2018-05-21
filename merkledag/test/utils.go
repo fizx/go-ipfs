@@ -1,8 +1,8 @@
 package mdutils
 
 import (
-	bsrv "github.com/ipfs/go-ipfs/blockservice"
-	dag "github.com/ipfs/go-ipfs/merkledag"
+	bsrv "github.com/fizx/go-ipfs/blockservice"
+	dag "github.com/fizx/go-ipfs/merkledag"
 
 	offline "gx/ipfs/QmWM5HhdG5ZQNyHQ5XhMdGmV9CvLpFynQfGpTxN2MEM7Lc/go-ipfs-exchange-offline"
 	ds "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore"

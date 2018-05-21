@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	dag "github.com/fizx/go-ipfs/merkledag"
+	ft "github.com/fizx/go-ipfs/unixfs"
 
 	pi "gx/ipfs/Qmb3jLEFAQrqdVgWUajqEyuuDoavkSq1XQXz6tWdFWF995/go-ipfs-posinfo"
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"

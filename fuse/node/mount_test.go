@@ -11,10 +11,10 @@ import (
 
 	"context"
 
-	core "github.com/ipfs/go-ipfs/core"
-	ipns "github.com/ipfs/go-ipfs/fuse/ipns"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
-	namesys "github.com/ipfs/go-ipfs/namesys"
+	core "github.com/fizx/go-ipfs/core"
+	ipns "github.com/fizx/go-ipfs/fuse/ipns"
+	mount "github.com/fizx/go-ipfs/fuse/mount"
+	namesys "github.com/fizx/go-ipfs/namesys"
 
 	ci "gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil/ci"
 	offroute "gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/offline"

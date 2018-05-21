@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
+	bsmsg "github.com/fizx/go-ipfs/exchange/bitswap/message"
+	bsnet "github.com/fizx/go-ipfs/exchange/bitswap/network"
 
 	delay "gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay"
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"

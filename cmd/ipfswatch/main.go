@@ -9,14 +9,14 @@ import (
 	"path/filepath"
 	"syscall"
 
-	commands "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	corehttp "github.com/ipfs/go-ipfs/core/corehttp"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	commands "github.com/fizx/go-ipfs/commands"
+	core "github.com/fizx/go-ipfs/core"
+	corehttp "github.com/fizx/go-ipfs/core/corehttp"
+	coreunix "github.com/fizx/go-ipfs/core/coreunix"
+	config "github.com/fizx/go-ipfs/repo/config"
+	fsrepo "github.com/fizx/go-ipfs/repo/fsrepo"
 
-	homedir "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/mitchellh/go-homedir"
+	homedir "github.com/fizx/go-ipfs/Godeps/_workspace/src/github.com/mitchellh/go-homedir"
 
 	process "gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess"
 	fsnotify "gx/ipfs/QmczzCMvJ3HV57WBKDy8b4ucp7quT325JjDbixYRS5Pwvv/fsnotify.v1"

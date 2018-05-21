@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
+	bsmsg "github.com/fizx/go-ipfs/exchange/bitswap/message"
 
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"
 	process "gx/ipfs/QmSF8fPo3jgVBAy8fpdjjYqgG87dkJgUprRBHRd2tmfgpP/goprocess"

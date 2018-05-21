@@ -8,11 +8,11 @@ import (
 	"errors"
 	"io"
 
-	help "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	help "github.com/fizx/go-ipfs/importer/helpers"
+	trickle "github.com/fizx/go-ipfs/importer/trickle"
+	mdag "github.com/fizx/go-ipfs/merkledag"
+	ft "github.com/fizx/go-ipfs/unixfs"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
 
 	chunker "gx/ipfs/QmWo8jYc19ppG7YoTsrr2kEtLRbARTJho5oNXFTR6B7Peq/go-ipfs-chunker"
 	proto "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto"

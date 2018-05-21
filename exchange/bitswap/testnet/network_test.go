@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
+	bsmsg "github.com/fizx/go-ipfs/exchange/bitswap/message"
+	bsnet "github.com/fizx/go-ipfs/exchange/bitswap/network"
 
 	delay "gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay"
 	testutil "gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil"

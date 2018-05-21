@@ -6,9 +6,9 @@ import (
 
 	context "context"
 
-	opts "github.com/ipfs/go-ipfs/namesys/opts"
-	path "github.com/ipfs/go-ipfs/path"
-	"github.com/ipfs/go-ipfs/unixfs"
+	opts "github.com/fizx/go-ipfs/namesys/opts"
+	path "github.com/fizx/go-ipfs/path"
+	"github.com/fizx/go-ipfs/unixfs"
 
 	ds "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore"
 	dssync "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/sync"

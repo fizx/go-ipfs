@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	options "github.com/ipfs/go-ipfs/core/coreapi/interface/options"
+	options "github.com/fizx/go-ipfs/core/coreapi/interface/options"
 
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"
 )

@@ -12,8 +12,8 @@ import (
 	"sync"
 	"testing"
 
-	core "github.com/ipfs/go-ipfs/core"
-	namesys "github.com/ipfs/go-ipfs/namesys"
+	core "github.com/fizx/go-ipfs/core"
+	namesys "github.com/fizx/go-ipfs/namesys"
 
 	u "gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util"
 	ci "gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil/ci"

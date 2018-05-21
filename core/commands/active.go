@@ -8,8 +8,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
+	cmds "github.com/fizx/go-ipfs/commands"
+	e "github.com/fizx/go-ipfs/core/commands/e"
 
 	"gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 )

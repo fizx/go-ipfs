@@ -3,7 +3,7 @@ package bitswap
 import (
 	"context"
 
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
+	bsnet "github.com/fizx/go-ipfs/exchange/bitswap/network"
 
 	mockpeernet "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/net/mock"
 	testutil "gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil"

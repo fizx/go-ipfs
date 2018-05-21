@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	random "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-random"
+	random "github.com/fizx/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-random"
 
-	"github.com/ipfs/go-ipfs/core"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
-	mock "github.com/ipfs/go-ipfs/core/mock"
-	"github.com/ipfs/go-ipfs/thirdparty/unit"
+	"github.com/fizx/go-ipfs/core"
+	coreunix "github.com/fizx/go-ipfs/core/coreunix"
+	mock "github.com/fizx/go-ipfs/core/mock"
+	"github.com/fizx/go-ipfs/thirdparty/unit"
 
 	mocknet "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/net/mock"
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"

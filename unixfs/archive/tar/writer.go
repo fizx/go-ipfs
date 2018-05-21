@@ -10,10 +10,10 @@ import (
 	"path"
 	"time"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	upb "github.com/ipfs/go-ipfs/unixfs/pb"
+	mdag "github.com/fizx/go-ipfs/merkledag"
+	ft "github.com/fizx/go-ipfs/unixfs"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
+	upb "github.com/fizx/go-ipfs/unixfs/pb"
 
 	proto "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto"
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"

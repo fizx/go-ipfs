@@ -7,11 +7,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
+	h "github.com/fizx/go-ipfs/importer/helpers"
+	trickle "github.com/fizx/go-ipfs/importer/trickle"
 
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	testu "github.com/ipfs/go-ipfs/unixfs/test"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
+	testu "github.com/fizx/go-ipfs/unixfs/test"
 
 	u "gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util"
 )

@@ -5,9 +5,9 @@ import (
 	"net"
 	"net/http"
 
-	core "github.com/ipfs/go-ipfs/core"
-	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	core "github.com/fizx/go-ipfs/core"
+	coreapi "github.com/fizx/go-ipfs/core/coreapi"
+	config "github.com/fizx/go-ipfs/repo/config"
 
 	id "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/protocol/identify"
 )

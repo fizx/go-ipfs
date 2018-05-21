@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	notifications "github.com/ipfs/go-ipfs/exchange/bitswap/notifications"
+	notifications "github.com/fizx/go-ipfs/exchange/bitswap/notifications"
 
 	blockstore "gx/ipfs/QmaG4DZ4JaqEfvPWt5nPPgoTzhc1tr1T3f4Nu9Jpdm8ymY/go-ipfs-blockstore"
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"

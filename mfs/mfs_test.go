@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	importer "github.com/ipfs/go-ipfs/importer"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	"github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	bserv "github.com/fizx/go-ipfs/blockservice"
+	importer "github.com/fizx/go-ipfs/importer"
+	dag "github.com/fizx/go-ipfs/merkledag"
+	"github.com/fizx/go-ipfs/path"
+	ft "github.com/fizx/go-ipfs/unixfs"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
 
 	u "gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util"
 	offline "gx/ipfs/QmWM5HhdG5ZQNyHQ5XhMdGmV9CvLpFynQfGpTxN2MEM7Lc/go-ipfs-exchange-offline"

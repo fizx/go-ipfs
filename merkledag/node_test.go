@@ -5,8 +5,8 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
+	. "github.com/fizx/go-ipfs/merkledag"
+	mdtest "github.com/fizx/go-ipfs/merkledag/test"
 
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"
 )

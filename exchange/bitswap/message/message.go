@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	pb "github.com/ipfs/go-ipfs/exchange/bitswap/message/pb"
-	wantlist "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
+	pb "github.com/fizx/go-ipfs/exchange/bitswap/message/pb"
+	wantlist "github.com/fizx/go-ipfs/exchange/bitswap/wantlist"
 	blocks "gx/ipfs/Qmej7nf81hi2x2tvjRBF3mcp74sQyuDH4VMYDGd1YtXjb2/go-block-format"
 
 	inet "gx/ipfs/QmXfkENeeBvh3zYA51MaSdGUdBjhQ99cP5WQe8zgr6wchG/go-libp2p-net"

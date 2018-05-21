@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ipfs/go-ipfs/thirdparty/verifcid"
+	"github.com/fizx/go-ipfs/thirdparty/verifcid"
 
 	backoff "gx/ipfs/QmPJUtEJsm5YLUWhF6imvyCH8KZXRJa9Wup7FDMwTy5Ufz/backoff"
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"

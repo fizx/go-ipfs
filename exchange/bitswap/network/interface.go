@@ -3,7 +3,7 @@ package network
 import (
 	"context"
 
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
+	bsmsg "github.com/fizx/go-ipfs/exchange/bitswap/message"
 
 	protocol "gx/ipfs/QmZNkThpqfVXs9GNbexPrfBbXSLNYeKrE7jwFM2oqHbyqN/go-libp2p-protocol"
 	peer "gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer"

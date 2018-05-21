@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	config "github.com/ipfs/go-ipfs/repo/config"
-	math2 "github.com/ipfs/go-ipfs/thirdparty/math2"
+	config "github.com/fizx/go-ipfs/repo/config"
+	math2 "github.com/fizx/go-ipfs/thirdparty/math2"
 	lgbl "gx/ipfs/Qmf9JgVLz46pxPXwG2eWSJpkqVCcjD4rp7zCRi2KP6GTNB/go-libp2p-loggables"
 
 	host "gx/ipfs/QmNmJZL7FQySMtE2BQuLMuZg2EB2CLEunJJUSVSc9YnnbV/go-libp2p-host"

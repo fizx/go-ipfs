@@ -4,13 +4,13 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	"github.com/ipfs/go-ipfs/core/coreunix"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
-	tar "github.com/ipfs/go-ipfs/tar"
+	cmds "github.com/fizx/go-ipfs/commands"
+	core "github.com/fizx/go-ipfs/core"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	"github.com/fizx/go-ipfs/core/coreunix"
+	dag "github.com/fizx/go-ipfs/merkledag"
+	path "github.com/fizx/go-ipfs/path"
+	tar "github.com/fizx/go-ipfs/tar"
 
 	"gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 )

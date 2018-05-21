@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/go-ipfs/blockservice"
-	"github.com/ipfs/go-ipfs/core"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	"github.com/ipfs/go-ipfs/pin/gc"
-	"github.com/ipfs/go-ipfs/repo"
-	"github.com/ipfs/go-ipfs/repo/config"
+	"github.com/fizx/go-ipfs/blockservice"
+	"github.com/fizx/go-ipfs/core"
+	dag "github.com/fizx/go-ipfs/merkledag"
+	"github.com/fizx/go-ipfs/pin/gc"
+	"github.com/fizx/go-ipfs/repo"
+	"github.com/fizx/go-ipfs/repo/config"
 
 	datastore "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore"
 	syncds "gx/ipfs/QmXRKBQA4wXP7xWbFiZsR1GP4HV6wMDQ1aWFxZZ4uBcPX9/go-datastore/sync"

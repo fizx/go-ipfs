@@ -5,7 +5,7 @@ Packages underneath core/ provide a (relatively) stable, low-level API
 to carry out most IPFS-related tasks.  For more details on the other
 interfaces and how core/... fits into the bigger IPFS picture, see:
 
-  $ godoc github.com/ipfs/go-ipfs
+  $ godoc github.com/fizx/go-ipfs
 */
 package core
 
@@ -21,22 +21,22 @@ import (
 	"strings"
 	"time"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	bitswap "github.com/ipfs/go-ipfs/exchange/bitswap"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	rp "github.com/ipfs/go-ipfs/exchange/reprovide"
-	filestore "github.com/ipfs/go-ipfs/filestore"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	mfs "github.com/ipfs/go-ipfs/mfs"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	ipnsrp "github.com/ipfs/go-ipfs/namesys/republisher"
-	p2p "github.com/ipfs/go-ipfs/p2p"
-	"github.com/ipfs/go-ipfs/path/resolver"
-	pin "github.com/ipfs/go-ipfs/pin"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	bserv "github.com/fizx/go-ipfs/blockservice"
+	bitswap "github.com/fizx/go-ipfs/exchange/bitswap"
+	bsnet "github.com/fizx/go-ipfs/exchange/bitswap/network"
+	rp "github.com/fizx/go-ipfs/exchange/reprovide"
+	filestore "github.com/fizx/go-ipfs/filestore"
+	mount "github.com/fizx/go-ipfs/fuse/mount"
+	merkledag "github.com/fizx/go-ipfs/merkledag"
+	mfs "github.com/fizx/go-ipfs/mfs"
+	namesys "github.com/fizx/go-ipfs/namesys"
+	ipnsrp "github.com/fizx/go-ipfs/namesys/republisher"
+	p2p "github.com/fizx/go-ipfs/p2p"
+	"github.com/fizx/go-ipfs/path/resolver"
+	pin "github.com/fizx/go-ipfs/pin"
+	repo "github.com/fizx/go-ipfs/repo"
+	config "github.com/fizx/go-ipfs/repo/config"
+	ft "github.com/fizx/go-ipfs/unixfs"
 
 	addrutil "gx/ipfs/QmNSWW3Sb4eju4o2djPQ1L1c2Zj9XN9sMYJL8r1cbxdc6b/go-addr-util"
 	yamux "gx/ipfs/QmNWCEvi7bPRcvqAV8AKLGVNoQdArWi7NJayka2SM4XtRe/go-smux-yamux"

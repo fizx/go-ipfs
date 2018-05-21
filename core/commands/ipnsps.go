@@ -6,9 +6,9 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	ns "github.com/ipfs/go-ipfs/namesys"
+	cmds "github.com/fizx/go-ipfs/commands"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	ns "github.com/fizx/go-ipfs/namesys"
 
 	"gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 )

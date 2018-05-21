@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/ipfs/go-ipfs/core/coredag"
+	"github.com/fizx/go-ipfs/core/coredag"
 
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"
 )

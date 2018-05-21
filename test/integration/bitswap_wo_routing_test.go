@@ -5,8 +5,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/mock"
+	"github.com/fizx/go-ipfs/core"
+	"github.com/fizx/go-ipfs/core/mock"
 	"gx/ipfs/Qmej7nf81hi2x2tvjRBF3mcp74sQyuDH4VMYDGd1YtXjb2/go-block-format"
 
 	mocknet "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/net/mock"

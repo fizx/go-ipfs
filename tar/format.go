@@ -8,11 +8,11 @@ import (
 	"io"
 	"strings"
 
-	importer "github.com/ipfs/go-ipfs/importer"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	dagutil "github.com/ipfs/go-ipfs/merkledag/utils"
-	path "github.com/ipfs/go-ipfs/path"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	importer "github.com/fizx/go-ipfs/importer"
+	dag "github.com/fizx/go-ipfs/merkledag"
+	dagutil "github.com/fizx/go-ipfs/merkledag/utils"
+	path "github.com/fizx/go-ipfs/path"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
 
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"
 	chunker "gx/ipfs/QmWo8jYc19ppG7YoTsrr2kEtLRbARTJho5oNXFTR6B7Peq/go-ipfs-chunker"

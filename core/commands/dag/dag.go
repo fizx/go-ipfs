@@ -7,11 +7,11 @@ import (
 	"math"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	coredag "github.com/ipfs/go-ipfs/core/coredag"
-	path "github.com/ipfs/go-ipfs/path"
-	pin "github.com/ipfs/go-ipfs/pin"
+	cmds "github.com/fizx/go-ipfs/commands"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	coredag "github.com/fizx/go-ipfs/core/coredag"
+	path "github.com/fizx/go-ipfs/path"
+	pin "github.com/fizx/go-ipfs/pin"
 
 	mh "gx/ipfs/QmZyZDi491cCNTLfAhwcaDii2Kg4pwKRkhqQzURGDvY6ua/go-multihash"
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"

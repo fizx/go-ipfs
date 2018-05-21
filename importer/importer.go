@@ -6,9 +6,9 @@ import (
 	chunker "gx/ipfs/QmWo8jYc19ppG7YoTsrr2kEtLRbARTJho5oNXFTR6B7Peq/go-ipfs-chunker"
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"
 
-	bal "github.com/ipfs/go-ipfs/importer/balanced"
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
+	bal "github.com/fizx/go-ipfs/importer/balanced"
+	h "github.com/fizx/go-ipfs/importer/helpers"
+	trickle "github.com/fizx/go-ipfs/importer/trickle"
 )
 
 // BuildDagFromReader creates a DAG given a DAGService and a Splitter

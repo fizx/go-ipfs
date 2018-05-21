@@ -3,7 +3,7 @@ package commands
 import (
 	"errors"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
+	cmds "github.com/fizx/go-ipfs/commands"
 
 	cmdkit "gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 )

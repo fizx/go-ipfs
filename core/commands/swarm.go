@@ -9,11 +9,11 @@ import (
 	"sort"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	"github.com/ipfs/go-ipfs/repo/fsrepo"
+	cmds "github.com/fizx/go-ipfs/commands"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	repo "github.com/fizx/go-ipfs/repo"
+	config "github.com/fizx/go-ipfs/repo/config"
+	"github.com/fizx/go-ipfs/repo/fsrepo"
 
 	iaddr "gx/ipfs/QmQViVWBHbU6HmYjXcdNq7tVASCNgdg64ZGcauuDkLCivW/go-ipfs-addr"
 	mafilter "gx/ipfs/QmSMZwvs3n4GBikZ7hKzT17c3bk65FmyZo2JqtJ16swqCv/multiaddr-filter"

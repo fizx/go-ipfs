@@ -18,7 +18,7 @@ package balanced
 import (
 	"errors"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
+	h "github.com/fizx/go-ipfs/importer/helpers"
 
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"
 )

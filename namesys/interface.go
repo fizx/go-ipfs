@@ -35,8 +35,8 @@ import (
 
 	context "context"
 
-	opts "github.com/ipfs/go-ipfs/namesys/opts"
-	path "github.com/ipfs/go-ipfs/path"
+	opts "github.com/fizx/go-ipfs/namesys/opts"
+	path "github.com/fizx/go-ipfs/path"
 
 	ci "gx/ipfs/QmaPbCnUMBohSGo3KnxEa2bHqyJVVeEEcwtqJAYxerieBo/go-libp2p-crypto"
 )

@@ -8,9 +8,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	util "github.com/ipfs/go-ipfs/blocks/blockstoreutil"
-	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	caopts "github.com/ipfs/go-ipfs/core/coreapi/interface/options"
+	util "github.com/fizx/go-ipfs/blocks/blockstoreutil"
+	coreiface "github.com/fizx/go-ipfs/core/coreapi/interface"
+	caopts "github.com/fizx/go-ipfs/core/coreapi/interface/options"
 
 	mh "gx/ipfs/QmZyZDi491cCNTLfAhwcaDii2Kg4pwKRkhqQzURGDvY6ua/go-multihash"
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"

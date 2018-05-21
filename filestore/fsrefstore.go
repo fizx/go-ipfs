@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	pb "github.com/ipfs/go-ipfs/filestore/pb"
+	pb "github.com/fizx/go-ipfs/filestore/pb"
 
 	proto "gx/ipfs/QmT6n4mspWYEya864BhCUJEgyxiRfmiSY9ruQwTUNpRKaM/protobuf/proto"
 	dshelp "gx/ipfs/QmTmqJGRQfuH8eKWD1FjThwPRipt1QhqJQNZ8MpzmfAAxo/go-ipfs-ds-help"

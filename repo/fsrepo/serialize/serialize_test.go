@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	config "github.com/ipfs/go-ipfs/repo/config"
+	config "github.com/fizx/go-ipfs/repo/config"
 )
 
 func TestConfig(t *testing.T) {

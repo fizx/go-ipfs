@@ -6,10 +6,10 @@ import (
 	"runtime"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	cmds "github.com/fizx/go-ipfs/commands"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	config "github.com/fizx/go-ipfs/repo/config"
+	fsrepo "github.com/fizx/go-ipfs/repo/fsrepo"
 	"gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 )
 

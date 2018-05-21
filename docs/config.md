@@ -307,7 +307,7 @@ Options for configuring the swarm.
 
 - `AddrFilters`
 An array of address filters (multiaddr netmasks) to filter dials to.
-See [this issue](https://github.com/ipfs/go-ipfs/issues/1226#issuecomment-120494604) for more
+See [this issue](https://github.com/fizx/go-ipfs/issues/1226#issuecomment-120494604) for more
 information.
 
 - `DisableBandwidthMetrics`

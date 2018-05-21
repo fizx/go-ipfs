@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	keystore "github.com/ipfs/go-ipfs/keystore"
-	path "github.com/ipfs/go-ipfs/path"
+	cmds "github.com/fizx/go-ipfs/commands"
+	core "github.com/fizx/go-ipfs/core"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	keystore "github.com/fizx/go-ipfs/keystore"
+	path "github.com/fizx/go-ipfs/path"
 
 	peer "gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer"
 	crypto "gx/ipfs/QmaPbCnUMBohSGo3KnxEa2bHqyJVVeEEcwtqJAYxerieBo/go-libp2p-crypto"

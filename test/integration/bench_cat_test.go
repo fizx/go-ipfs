@@ -8,10 +8,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/core"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
-	mock "github.com/ipfs/go-ipfs/core/mock"
-	"github.com/ipfs/go-ipfs/thirdparty/unit"
+	"github.com/fizx/go-ipfs/core"
+	coreunix "github.com/fizx/go-ipfs/core/coreunix"
+	mock "github.com/fizx/go-ipfs/core/mock"
+	"github.com/fizx/go-ipfs/thirdparty/unit"
 
 	mocknet "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/net/mock"
 	testutil "gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil"

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	decision "github.com/ipfs/go-ipfs/exchange/bitswap/decision"
-	tn "github.com/ipfs/go-ipfs/exchange/bitswap/testnet"
+	decision "github.com/fizx/go-ipfs/exchange/bitswap/decision"
+	tn "github.com/fizx/go-ipfs/exchange/bitswap/testnet"
 
 	delay "gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay"
 	tu "gx/ipfs/QmVvkK7s5imCiq3JVbL3pGfnhcCnf3LrFJPF4GE2sAoGZf/go-testutil"

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	wl "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
+	bsmsg "github.com/fizx/go-ipfs/exchange/bitswap/message"
+	wl "github.com/fizx/go-ipfs/exchange/bitswap/wantlist"
 
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"
 	peer "gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer"

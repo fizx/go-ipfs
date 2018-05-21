@@ -1,9 +1,9 @@
 package bstest
 
 import (
-	. "github.com/ipfs/go-ipfs/blockservice"
-	bitswap "github.com/ipfs/go-ipfs/exchange/bitswap"
-	tn "github.com/ipfs/go-ipfs/exchange/bitswap/testnet"
+	. "github.com/fizx/go-ipfs/blockservice"
+	bitswap "github.com/fizx/go-ipfs/exchange/bitswap"
+	tn "github.com/fizx/go-ipfs/exchange/bitswap/testnet"
 
 	delay "gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay"
 	mockrouting "gx/ipfs/QmXtoXbu9ReyV6Q4kDQ5CF9wXQNDY1PdHc4HhfxRR5AHB3/go-ipfs-routing/mock"

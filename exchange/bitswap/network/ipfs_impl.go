@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
+	bsmsg "github.com/fizx/go-ipfs/exchange/bitswap/message"
 
 	host "gx/ipfs/QmNmJZL7FQySMtE2BQuLMuZg2EB2CLEunJJUSVSc9YnnbV/go-libp2p-host"
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"

@@ -17,10 +17,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ipfs/go-ipfs/core"
-	path "github.com/ipfs/go-ipfs/path"
-	resolver "github.com/ipfs/go-ipfs/path/resolver"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	"github.com/fizx/go-ipfs/core"
+	path "github.com/fizx/go-ipfs/path"
+	resolver "github.com/fizx/go-ipfs/path/resolver"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
 
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"
 )

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	pb "github.com/ipfs/go-ipfs/namesys/pb"
-	path "github.com/ipfs/go-ipfs/path"
-	pin "github.com/ipfs/go-ipfs/pin"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	pb "github.com/fizx/go-ipfs/namesys/pb"
+	path "github.com/fizx/go-ipfs/path"
+	pin "github.com/fizx/go-ipfs/pin"
+	ft "github.com/fizx/go-ipfs/unixfs"
 
 	u "gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util"
 	routing "gx/ipfs/QmTiWLZ6Fo5j4KcTVutZJ5KWRRJrbxzmxA4td8NfEdrPh7/go-libp2p-routing"

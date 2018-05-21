@@ -8,10 +8,10 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	nodeMount "github.com/ipfs/go-ipfs/fuse/node"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	cmds "github.com/fizx/go-ipfs/commands"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	nodeMount "github.com/fizx/go-ipfs/fuse/node"
+	config "github.com/fizx/go-ipfs/repo/config"
 
 	"gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 )

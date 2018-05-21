@@ -6,8 +6,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/ipfs/go-ipfs/core/coredag"
-	"github.com/ipfs/go-ipfs/plugin"
+	"github.com/fizx/go-ipfs/core/coredag"
+	"github.com/fizx/go-ipfs/plugin"
 
 	git "gx/ipfs/QmZGhwkjJ4cGn2DTN3TYqRNAnC7EeBk7MF9fm3SqSQMUux/go-ipld-git"
 	mh "gx/ipfs/QmZyZDi491cCNTLfAhwcaDii2Kg4pwKRkhqQzURGDvY6ua/go-multihash"

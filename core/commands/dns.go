@@ -4,10 +4,10 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	nsopts "github.com/ipfs/go-ipfs/namesys/opts"
+	cmds "github.com/fizx/go-ipfs/commands"
+	e "github.com/fizx/go-ipfs/core/commands/e"
+	namesys "github.com/fizx/go-ipfs/namesys"
+	nsopts "github.com/fizx/go-ipfs/namesys/opts"
 
 	"gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 )

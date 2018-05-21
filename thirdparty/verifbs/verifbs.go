@@ -1,7 +1,7 @@
 package verifbs
 
 import (
-	"github.com/ipfs/go-ipfs/thirdparty/verifcid"
+	"github.com/fizx/go-ipfs/thirdparty/verifcid"
 
 	bstore "gx/ipfs/QmaG4DZ4JaqEfvPWt5nPPgoTzhc1tr1T3f4Nu9Jpdm8ymY/go-ipfs-blockstore"
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"

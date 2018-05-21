@@ -10,7 +10,7 @@ import (
 	"gx/ipfs/QmTjNRVt2fvaRFu93keEC7z5M1GS1iH6qZ9227htQioTUY/go-ipfs-cmds"
 	"gx/ipfs/QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM/go-ipfs-cmdkit"
 
-	oldcmds "github.com/ipfs/go-ipfs/commands"
+	oldcmds "github.com/fizx/go-ipfs/commands"
 )
 
 // responseWrapper wraps Response and implements olcdms.Response.

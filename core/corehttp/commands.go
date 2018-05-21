@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	oldcmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	corecommands "github.com/ipfs/go-ipfs/core/commands"
-	path "github.com/ipfs/go-ipfs/path"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	oldcmds "github.com/fizx/go-ipfs/commands"
+	core "github.com/fizx/go-ipfs/core"
+	corecommands "github.com/fizx/go-ipfs/core/commands"
+	path "github.com/fizx/go-ipfs/path"
+	config "github.com/fizx/go-ipfs/repo/config"
 
 	cmds "gx/ipfs/QmTjNRVt2fvaRFu93keEC7z5M1GS1iH6qZ9227htQioTUY/go-ipfs-cmds"
 	cmdsHttp "gx/ipfs/QmTjNRVt2fvaRFu93keEC7z5M1GS1iH6qZ9227htQioTUY/go-ipfs-cmds/http"

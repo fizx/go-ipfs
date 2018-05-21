@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	format "github.com/ipfs/go-ipfs/unixfs"
-	hamt "github.com/ipfs/go-ipfs/unixfs/hamt"
+	mdag "github.com/fizx/go-ipfs/merkledag"
+	format "github.com/fizx/go-ipfs/unixfs"
+	hamt "github.com/fizx/go-ipfs/unixfs/hamt"
 
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"

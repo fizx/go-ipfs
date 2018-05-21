@@ -4,10 +4,10 @@ import (
 	"context"
 	"net"
 
-	commands "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	commands "github.com/fizx/go-ipfs/commands"
+	core "github.com/fizx/go-ipfs/core"
+	"github.com/fizx/go-ipfs/repo"
+	config "github.com/fizx/go-ipfs/repo/config"
 
 	mocknet "gx/ipfs/QmNh1kGFFdsPu79KNSaL4NUKUPb4Eiz4KHdMtFY6664RDp/go-libp2p/p2p/net/mock"
 	host "gx/ipfs/QmNmJZL7FQySMtE2BQuLMuZg2EB2CLEunJJUSVSc9YnnbV/go-libp2p-host"

@@ -1,9 +1,9 @@
 {
   "bugs": {
-    "url": "https://github.com/ipfs/go-ipfs"
+    "url": "https://github.com/fizx/go-ipfs"
   },
   "gx": {
-    "dvcsimport": "github.com/ipfs/go-ipfs",
+    "dvcsimport": "github.com/fizx/go-ipfs",
     "goversion": "1.10"
   },
   "gxDependencies": [
@@ -184,7 +184,7 @@
     },
     {
       "author": "fizx",
-      "hash": "QmQjLA7Dk4eZYfKvxP4dRKay6kGUPuEJXZFCgNMfMFzVSK",
+      "hash": "QmZXdPVDodo4sGx6KQb6mRT1X7bPrEaHnpCQkKa4dXtP9n",
       "name": "go-ds-s3",
       "version": "0.0.1"
     },

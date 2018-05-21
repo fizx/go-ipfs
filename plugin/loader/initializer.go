@@ -1,8 +1,8 @@
 package loader
 
 import (
-	"github.com/ipfs/go-ipfs/core/coredag"
-	"github.com/ipfs/go-ipfs/plugin"
+	"github.com/fizx/go-ipfs/core/coredag"
+	"github.com/fizx/go-ipfs/plugin"
 	"gx/ipfs/QmWLWmRVSiagqP15jczsGME1qpob6HDbtbHAY2he9W5iUo/opentracing-go"
 
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"

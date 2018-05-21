@@ -9,11 +9,11 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	h "github.com/fizx/go-ipfs/importer/helpers"
+	merkledag "github.com/fizx/go-ipfs/merkledag"
+	mdtest "github.com/fizx/go-ipfs/merkledag/test"
+	ft "github.com/fizx/go-ipfs/unixfs"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
 
 	u "gx/ipfs/QmNiJuT8Ja3hMVpBHXv3Q6dwmperaQ6JjLtpMQgMCD7xvx/go-ipfs-util"
 	chunker "gx/ipfs/QmWo8jYc19ppG7YoTsrr2kEtLRbARTJho5oNXFTR6B7Peq/go-ipfs-chunker"

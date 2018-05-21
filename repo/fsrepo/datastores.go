@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	repo "github.com/ipfs/go-ipfs/repo"
+	repo "github.com/fizx/go-ipfs/repo"
 
 	badgerds "gx/ipfs/QmPAiAmc3qhTFwzWnKpxr6WCXGZ5mqpaQ2YEwSTnwyduHo/go-ds-badger"
 	humanize "gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize"

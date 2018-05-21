@@ -9,9 +9,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/coreunix"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	"github.com/fizx/go-ipfs/core"
+	"github.com/fizx/go-ipfs/core/coreunix"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
 	cid "gx/ipfs/QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY/go-cid"
 
 	// this import keeps gx from thinking the dep isn't used

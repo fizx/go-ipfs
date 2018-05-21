@@ -11,12 +11,12 @@ import (
 	"io"
 	"os"
 
-	core "github.com/ipfs/go-ipfs/core"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mfs "github.com/ipfs/go-ipfs/mfs"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	path "github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	core "github.com/fizx/go-ipfs/core"
+	dag "github.com/fizx/go-ipfs/merkledag"
+	mfs "github.com/fizx/go-ipfs/mfs"
+	namesys "github.com/fizx/go-ipfs/namesys"
+	path "github.com/fizx/go-ipfs/path"
+	ft "github.com/fizx/go-ipfs/unixfs"
 
 	logging "gx/ipfs/QmRb5jh8z2E8hMGN2tkvs1yHynUanqnZ3UeKwgN1i9P1F8/go-log"
 	peer "gx/ipfs/QmZoWKhxUmZ2seW4BzX6fJkNR8hh9PsGModr7q171yq2SS/go-libp2p-peer"

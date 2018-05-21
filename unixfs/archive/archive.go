@@ -8,8 +8,8 @@ import (
 	"io"
 	"path"
 
-	tar "github.com/ipfs/go-ipfs/unixfs/archive/tar"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	tar "github.com/fizx/go-ipfs/unixfs/archive/tar"
+	uio "github.com/fizx/go-ipfs/unixfs/io"
 
 	ipld "gx/ipfs/Qme5bWv7wtjUNGsK2BNGVUFPKiuxWrsqrtvYwCLRw8YFES/go-ipld-format"
 )
