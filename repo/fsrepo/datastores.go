@@ -18,7 +18,7 @@ import (
 	flatfs "gx/ipfs/QmaCTqBCt1aKaGfHfSVzsprqWRXCjHthK8xXrPbUZYCWga/go-ds-flatfs"
 	ldbopts "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/opt"
 	measure "gx/ipfs/QmbJgZGRtkFeSdCxBCPaMKWRDYbqMxHyFfvjQGcWzpqsDe/go-ds-measure"
-	s3 "gx/ipfs/QmbigbgXTw15ZKu6FefvSnf5ELvMQR1Smn4XoNLTNGmBha/go-ds-s3"
+	s3 "gx/ipfs/QmeZEBGA3K1uupMoXCPL5ohDeH1NisBQqc51z8q8nQgde7/go-ds-s3"
 )
 
 // ConfigFromMap creates a new datastore config from a map
